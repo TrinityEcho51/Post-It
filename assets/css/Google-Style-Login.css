@@ -1,0 +1,160 @@
+.login-card{
+  max-width:350px;
+  padding:40px 40px;
+  background-color:#F7F7F7;
+  margin:0 auto 25px;
+  margin-top:30px;
+  border-radius:2px;
+  box-shadow:0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-card .profile-img-card{
+  width:96px;
+  height:96px;
+  margin:0 auto 10px;
+  display:block;
+  border-radius:50%;
+}
+
+.login-card .profile-name-card{
+  font-size:16px;
+  font-weight:bold;
+  text-align:center;
+  margin:10px 0 0;
+  min-height:1em;
+}
+
+.login-card .reauth-email{
+  display:block;
+  color:#404040;
+  line-height:2;
+  margin-bottom:10px;
+  font-size:14px;
+  text-align:center;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  box-sizing:border-box;
+}
+
+.login-card .form-signin input[type=email], .login-card .form-signin input[type=password], .login-card .form-signin input[type=text], .login-card .form-signin button{
+  height:44px;
+  font-size:16px;
+  width:100%;
+  display:block;
+  margin-bottom:10px;
+  z-index:1;
+  position:relative;
+  box-sizing:border-box;
+}
+
+.login-card label{
+  color:#000000;
+}
+
+.login-card .form-signin .form-control:focus{
+  border-color:rgb(104, 145, 162);
+  outline:0;
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+  box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.login-card .btn.btn-signin{
+  font-weight:700;
+  height:36px;
+  line-height:36px;
+  font-size:14px;
+  background:rgb(104, 145, 162);
+  border-radius:3px;
+  border:none;
+  transition:all 0.218s;
+  padding:0;
+}
+
+.login-card .btn.btn-signin:hover, .login-card .btn.btn-signin:active, .login-card .btn.btn-signin:focus{
+  background:rgb(12, 97, 33);
+}
+
+.login-card .forgot-password{
+  color:rgb(104, 145, 162);
+}
+
+.login-card .forgot-password:hover, .login-card .forgot-password:active, .login-card .forgot-password:focus{
+  color:rgb(12, 97, 33);
+}
+
+div#HlavnyKontainer.container{
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div.row{
+}
+
+div#well-tab_postit.well{
+  padding:0px;
+}
+
+div#container-row_rfs_nature.container-fluid{
+  margin-bottom:10px;
+}
+
+select.form-control.input-lg{
+  background-color:white;
+}
+
+div.panel-footer{
+  overflow-y:scroll;
+}
+
+body#Body-Vytvorenie_Postit{
+  max-width:768px;
+  margin:0px auto 0px auto;
+}
+
+button#Odhlas.btn.btn-default{
+  float:right;
+  align-items:center;
+}
+
+div#Napis-Prihlaseny.col-xs-6.visible-sm-inline-block{
+  color:grey;
+}
+
+div#Napis-Prihlaseny.col-xs-6{
+  color:grey;
+}
+
+div.panel-heading{
+  overflow-y:scroll;
+}
+
+nav{
+}
+
+div.col-lg-offset-0.col-sm-1{
+  padding:0px;
+}
+
+span.text-muted{
+  font-size:large;
+}
+
+div.checkbox.form-control.label-box{
+}
+
+textarea{
+  width:100%;
+  height:100%;
+  border-radius:4px;
+  border-color:#66afe9;
+  outline:0;
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+  box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+div.col-sm-10{
+  height:100%;
+}
+
